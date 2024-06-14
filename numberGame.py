@@ -17,6 +17,7 @@ if question != "yes":
 else :
    print(f"Welcome {user_name}, lets get started :)")
 
+#user inputs range 
 range_of_guess = int(input("please enter a number that is above 0  :\n"))
 
 if range_of_guess <= 0 :
